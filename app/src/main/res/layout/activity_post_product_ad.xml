@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="bidmart.fyp.pk.bidmartpk.PostProductAd"
+    android:weightSum="1">
+
+    <ImageButton
+        android:id="@+id/product_image"
+        android:layout_width="match_parent"
+        android:layout_height="203dp"
+        android:adjustViewBounds="true"
+        android:paddingBottom="3dp"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/add_btn" />
+
+    <EditText
+        android:id="@+id/newProductName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="Product Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/newProductPrice"
+        android:layout_width="404dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="0.00"
+        android:ems="10"
+        android:hint="Prodcut Price"
+        android:inputType="textPersonName" />
+
+    <Spinner
+        android:id="@+id/newProductCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="0.24"
+        android:entries="@array/category"
+        android:prompt="@string/category_prompt" />
+
+    <EditText
+        android:id="@+id/newProductDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="Product Description"
+        android:inputType="textMultiLine" />
+
+    <EditText
+        android:id="@+id/newSellerName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:ems="10"
+        android:hint="Seller Name"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/new_ProductSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:text="Submit Ad" />
+</LinearLayout>

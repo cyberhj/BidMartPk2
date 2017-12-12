@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:background="#78909C"
+tools:context="bidmart.fyp.pk.bidmartpk.AccountInfo">
+
+
+    <Button
+        android:id="@+id/acc_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@color/colorAccent"
+        android:layout_marginBottom="58dp" />
+
+    <Button
+        android:id="@+id/edit_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edit_password"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:backgroundTint="#fff"
+        android:layout_marginBottom="42dp"
+        android:text="Update Contact Details" />
+
+    <Button
+        android:id="@+id/edit_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/edit_password"
+        android:layout_alignParentLeft="true"
+        android:backgroundTint="#fff"
+        android:layout_alignParentStart="true"
+        android:text="Update Email Address" />
+
+    <Button
+        android:id="@+id/edit_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Password"
+        android:layout_alignBottom="@+id/edit_phoneNo"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:backgroundTint="#fff"
+        android:layout_marginBottom="47dp" />
+
+    <Button
+        android:id="@+id/edit_phoneNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:backgroundTint="#fff"
+        android:layout_centerVertical="true"
+        android:text="Update Phone Number" />
+
+    <Button
+        android:id="@+id/postAd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Post Ad"
+        android:layout_alignBaseline="@+id/myAdsButton"
+        android:layout_alignBottom="@+id/myAdsButton"
+        android:layout_toRightOf="@+id/viewAdsButton"
+        android:layout_toEndOf="@+id/viewAdsButton"
+        android:layout_marginLeft="21dp"
+        android:layout_marginStart="21dp"
+        android:backgroundTint="#fff"/>
+
+    <Button
+        android:id="@+id/viewAdsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Ads"
+        android:layout_alignTop="@+id/postAd"
+        android:backgroundTint="#fff"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/myAdsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="My Ads"
+        android:layout_above="@+id/acc_logout"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="36dp"
+        android:backgroundTint="#fff"
+        android:layout_marginStart="36dp"
+        android:layout_marginBottom="28dp" />
+
+
+</RelativeLayout>
+
+
+
+
+

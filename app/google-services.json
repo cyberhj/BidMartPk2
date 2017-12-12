@@ -1,0 +1,113 @@
+{
+  "project_info": {
+    "project_number": "813241691353",
+    "firebase_url": "https://bidmart-pk.firebaseio.com",
+    "project_id": "bidmart-pk",
+    "storage_bucket": "bidmart-pk.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813241691353:android:b7f022277fbac7ca",
+        "android_client_info": {
+          "package_name": "bidmart.fyp.pk.bidmartpk"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813241691353-2u7o3e6csnmrccejn082kdrtnf0fu8a4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "bidmart.fyp.pk.bidmartpk",
+            "certificate_hash": "623a1148a0b88ab06bf68c65110b624cc858d621"
+          }
+        },
+        {
+          "client_id": "813241691353-8l6scojql8raf4qml7hu26s7dm6dkuqk.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "813241691353-vk203dtmqp2o40m9enqibdk3j3u9ga7j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvBtLHBDBliSoPZmGC_uSd95oCcJoZGV8"
+        },
+        {
+          "current_key": "AIzaSyBJ1HkAPvnBKtuExCtMz2u_oMGxzMBEfX0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813241691353-8l6scojql8raf4qml7hu26s7dm6dkuqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:813241691353:android:7ff0a33d76d8023a",
+        "android_client_info": {
+          "package_name": "www.bidmart.pk.bidmartpk_fyp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "813241691353-8mt2q4vlss1piq1fj22esssonukht96p.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "www.bidmart.pk.bidmartpk_fyp",
+            "certificate_hash": "b2a2efd368d38c242531e5e210f76b64c9042f17"
+          }
+        },
+        {
+          "client_id": "813241691353-8l6scojql8raf4qml7hu26s7dm6dkuqk.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "813241691353-vk203dtmqp2o40m9enqibdk3j3u9ga7j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvBtLHBDBliSoPZmGC_uSd95oCcJoZGV8"
+        },
+        {
+          "current_key": "AIzaSyBJ1HkAPvnBKtuExCtMz2u_oMGxzMBEfX0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "813241691353-8l6scojql8raf4qml7hu26s7dm6dkuqk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

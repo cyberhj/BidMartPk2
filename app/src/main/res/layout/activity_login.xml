@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#78909C"
+tools:context="bidmart.fyp.pk.bidmartpk.Login">
+
+
+<EditText
+    android:id="@+id/login_email"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:ems="10"
+    android:hint="Email"
+    android:inputType="textEmailAddress"
+    tools:layout_editor_absoluteX="8dp"
+    tools:layout_editor_absoluteY="97dp"
+    android:layout_marginTop="70dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
+    android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/login_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/login_email"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="73dp"
+        android:ems="10"
+        android:hint="Password"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:inputType="textPassword" />
+
+<Button
+    android:id="@+id/bt_login"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="50dp"
+    android:layout_marginRight="50dp"
+    android:background="@color/colorAccent"
+    android:text="Login"
+    android:textColor="@android:color/black"
+    android:layout_below="@+id/login_pass"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="69dp" />
+
+<Button
+    android:id="@+id/login_signup"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:textColor="#ffffff"
+    android:text="Not a member? Just Signup"
+    android:layout_marginBottom="47dp"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/btn_reset_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@null"
+        android:textColor="#ffffff"
+        android:text="Forgot Password?"
+        android:layout_above="@+id/login_signup"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="32dp" />
+</RelativeLayout>

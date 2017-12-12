@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">BidMartPk</string>
+    <string name="title_activity_main_view">MainView</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="tos">By checking this box, you are indicating that you have read the Terms of Service and agree to Privacy Policy.</string>
+
+    <string name="category_prompt">Choose a Category</string>
+
+    <string-array name="category">
+        <item>Mobile Phones</item>
+        <item>Tablets</item>
+        <item>Cars</item>
+        <item>Bikes</item>
+        <item>Property</item>
+        <item>Toys</item>
+        <item>Household Items</item>
+        <item>Other</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
